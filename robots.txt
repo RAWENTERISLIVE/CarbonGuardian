@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Guardian</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Carbon Guardian Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="robots.txt#" id="home-link">Home</a></li>
+                <li><a href="robots.txt#" id="projects-link">Projects</a></li>
+                <li><a href="robots.txt#" id="contact-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Carbon Guardian</h1>
+            <p>Step towards a pollution-free environment with our innovative solutions.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Our Projects</h2>
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>Project description and details...</p>
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Project description and details...</p>
+            </div>
+            <!-- Add more project sections as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="https://carbonguardiantechnologies.web.app/submit_form.php" method="post" id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            
+                <button type="submit">Submit</button>
+            </form>            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carbon Guardian. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
